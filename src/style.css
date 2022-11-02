@@ -1,1 +1,11 @@
-/* styles go here */
+fieldset {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}

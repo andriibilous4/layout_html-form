@@ -15,10 +15,10 @@
   </head>
   <body>
     <form action="/action_page.php" method="post">
-      <fieldset>
+      <fieldset class="fields">
         <legend>Personal information
         </legend>
-        <section>
+        <section class="section">
           <label required for="surname">Surname:
           </label>
           <input
@@ -28,7 +28,7 @@
             name="surname"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="name">Name:
           </label>
           <input
@@ -38,7 +38,7 @@
             name="name"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="age">How old are You?
           </label>
           <input
@@ -50,7 +50,7 @@
             name="age"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="birthDate">Full date of birth:
           </label>
           <input
@@ -59,7 +59,7 @@
            name="birthDate"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="terms">I accept the term of the agreement
           </label>
           <input
@@ -70,9 +70,9 @@
         </section>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fields">
         <legend>Registration</legend>
-        <section>
+        <section class="section">
           <label required for="email">E-mail:
           </label>
           <input
@@ -82,7 +82,7 @@
             id="email"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="password">Password:
           </label>
           <input
@@ -95,9 +95,9 @@
         </section>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fields">
         <legend>An interesting fact about you!</legend>
-        <section>
+        <section class="section">
           <label for="cats">Do you love cats?
           </label>
           <input
@@ -117,7 +117,7 @@
           <label for="cats-no">No
           </label>
         </section>
-        <section>
+        <section class="section">
           <label for="color">What is your favorite color?
           </label>
           <input
@@ -126,7 +126,7 @@
             id="color"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="rate">What time do you go to bed?
           </label>
           <input
@@ -136,7 +136,7 @@
             id="rate"
           >
         </section>
-        <section>
+        <section class="section">
           <label for="cars">What are your favorite brand of cars?</label>
           <select multiple name="cars"
            id="cars">
@@ -145,7 +145,7 @@
             <option value="lada">Lada</option>
           </select>
         </section>
-        <section>
+        <section class="section">
           <label for="range">How do you rate our work?
           </label>
           <input
@@ -157,9 +157,9 @@
         </section>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fields">
         <legend>Additional info:</legend>
-        <section>
+        <section class="section">
           <label for="comments">Comments:</label>
           <textarea
             autocomplete="off"
@@ -168,7 +168,7 @@
           >
           </textarea>
         </section>
-        <section>
+        <section class="section">
           <label for="recommend">Would you recommend us?</label>
           <select id="recommend">
             <option value="yes">yes</option>

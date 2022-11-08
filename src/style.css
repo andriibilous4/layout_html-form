@@ -1,11 +1,11 @@
-fieldset {
+.fields {
   margin-bottom: 20px;
 }
 
-section {
+.section {
   margin-bottom: 10px;
 }
 
-section:last-child {
+.section:last-child {
   margin-bottom: 0;
 }

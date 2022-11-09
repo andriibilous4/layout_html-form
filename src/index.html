@@ -14,25 +14,23 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="/action_page.php" method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fields">
         <legend>Personal information
         </legend>
         <section class="section">
-          <label required for="surname">
-            Surname:
-          </label>
+          <label for="surname">Surname:</label>
           <input
+            required
             id="surname"
             autocomplete="off"
             type="text"
             name="surname"
           >
         </section>
+
         <section class="section">
-          <label for="name">
-            Name:
-          </label>
+          <label for="name">Name:</label>
           <input
             id="name"
             autocomplete="off"
@@ -40,10 +38,9 @@
             name="name"
           >
         </section>
+
         <section class="section">
-          <label for="age">
-            How old are You?
-          </label>
+          <label for="age">How old are You?</label>
           <input
             min="1"
             id="age"
@@ -53,20 +50,18 @@
             name="age"
           >
         </section>
+
         <section class="section">
-          <label for="birthDate">
-            Full date of birth:
-          </label>
+          <label for="birthDate">Full date of birth:</label>
           <input
            id="birthDate"
            type="date"
            name="birthDate"
           >
         </section>
+
         <section class="section">
-          <label for="terms">
-            I accept the term of the agreement
-          </label>
+          <label for="terms">I accept the term of the agreement</label>
           <input
             id="terms"
             type="checkbox"
@@ -78,20 +73,18 @@
       <fieldset class="fields">
         <legend>Registration</legend>
         <section class="section">
-          <label required for="email">
-            E-mail:
-          </label>
+          <label for="email">E-mail:</label>
           <input
+            required
             placeholder="email@example.com"
             type="email"
             name="email"
             id="email"
           >
         </section>
+
         <section class="section">
-          <label for="password">
-            Password:
-          </label>
+          <label for="password">Password:</label>
           <input
             minlength="4"
             maxlength="10"
@@ -107,27 +100,23 @@
           An interesting fact about you!
         </legend>
         <section class="section">
-          <label for="cats">
-            Do you love cats?
-          </label>
+          <label for="cats">Do you love cats?</label>
           <input
             type="radio"
             name="cats"
             value="Yes"
             id="cats-yes"
           >
-          <label for="cats-yes">Yes
-          </label>
+          <label for="cats-yes">Yes</label>
           <input
             type="radio"
             name="cats"
             value="No"
             id="cats-no"
           >
-          <label for="cats-no">
-            No
-          </label>
+          <label for="cats-no">No</label>
         </section>
+
         <section class="section">
           <label for="color">
             What is your favorite color?
@@ -138,10 +127,9 @@
             id="color"
           >
         </section>
+
         <section class="section">
-          <label for="rate">
-            What time do you go to bed?
-          </label>
+          <label for="rate">What time do you go to bed?</label>
           <input
             type="time"
             step="2"
@@ -149,10 +137,9 @@
             id="rate"
           >
         </section>
+
         <section class="section">
-          <label for="cars">
-            What are your favorite brand of cars?
-          </label>
+          <label for="cars">What are your favorite brand of cars?</label>
           <select multiple name="cars"
            id="cars">
             <option value="bmw">BMW</option>
@@ -160,10 +147,9 @@
             <option value="lada">Lada</option>
           </select>
         </section>
+
         <section class="section">
-          <label for="range">
-            How do you rate our work?
-          </label>
+          <label for="range">How do you rate our work?</label>
           <input
             type="range"
             name="range"
@@ -178,9 +164,7 @@
           Additional info:
         </legend>
         <section class="section">
-          <label for="comments">
-            Comments:
-          </label>
+          <label for="comments">Comments:</label>
           <textarea
             autocomplete="off"
             name="comments"
@@ -188,10 +172,9 @@
           >
           </textarea>
         </section>
+
         <section class="section">
-          <label for="recommend">
-            Would you recommend us?
-          </label>
+          <label for="recommend">Would you recommend us?</label>
           <select id="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
@@ -199,8 +182,7 @@
         </section>
       </fieldset>
 
-      <button type="submit"
-       title="Submit">
+      <button type="submit" title="Submit">
        Submit
       </button>
     </form>

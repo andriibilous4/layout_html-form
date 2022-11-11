@@ -17,10 +17,10 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fields">
         <legend>Personal information</legend>
-        
+
         <section class="section">
           <label for="surname">Surname:</label>
-          
+
           <input
             required
             id="surname"
@@ -32,6 +32,7 @@
 
         <section class="section">
           <label for="name">Name:</label>
+
           <input
             id="name"
             autocomplete="off"
@@ -42,6 +43,7 @@
 
         <section class="section">
           <label for="age">How old are You?</label>
+
           <input
             min="1"
             id="age"
@@ -54,6 +56,7 @@
 
         <section class="section">
           <label for="birthDate">Full date of birth:</label>
+
           <input
            id="birthDate"
            type="date"
@@ -63,6 +66,7 @@
 
         <section class="section">
           <label for="terms">I accept the term of the agreement</label>
+
           <input
             id="terms"
             type="checkbox"
@@ -75,6 +79,7 @@
         <legend>Registration</legend>
         <section class="section">
           <label for="email">E-mail:</label>
+
           <input
             required
             placeholder="email@example.com"
@@ -86,6 +91,7 @@
 
         <section class="section">
           <label for="password">Password:</label>
+
           <input
             minlength="4"
             maxlength="10"
@@ -102,6 +108,7 @@
         </legend>
         <section class="section">
           <label for="cats">Do you love cats?</label>
+
           <input
             type="radio"
             name="cats"
@@ -109,6 +116,7 @@
             id="cats-yes"
           >
           <label for="cats-yes">Yes</label>
+
           <input
             type="radio"
             name="cats"
@@ -119,9 +127,8 @@
         </section>
 
         <section class="section">
-          <label for="color">
-            What is your favorite color?
-          </label>
+          <label for="color">What is your favorite color?</label>
+
           <input
             type="color"
             name="color"
@@ -131,6 +138,7 @@
 
         <section class="section">
           <label for="rate">What time do you go to bed?</label>
+
           <input
             type="time"
             step="2"
@@ -141,6 +149,7 @@
 
         <section class="section">
           <label for="cars">What are your favorite brand of cars?</label>
+
           <select multiple name="cars"
            id="cars">
             <option value="bmw">BMW</option>
@@ -151,6 +160,7 @@
 
         <section class="section">
           <label for="range">How do you rate our work?</label>
+
           <input
             type="range"
             name="range"
@@ -166,16 +176,13 @@
         </legend>
         <section class="section">
           <label for="comments">Comments:</label>
-          <textarea
-            autocomplete="off"
-            name="comments"
-            id="comments"
-          >
-          </textarea>
+
+          <textarea autocomplete="off" name="comments" id="comments"></textarea>
         </section>
 
         <section class="section">
           <label for="recommend">Would you recommend us?</label>
+
           <select id="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
